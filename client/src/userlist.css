@@ -1,0 +1,28 @@
+.userlist {
+    background-color: #E2E8F0;
+    display: flex ;
+    flex-wrap: wrap;
+    padding-top:20px ;
+    padding-left:16px;
+    padding-right: auto;
+    
+   
+}
+.user{
+    height: 150px;
+    width: 600px;
+    margin:20px;
+    border-radius: 2px;
+    box-shadow:  0 0 3px 3px grey;   
+    padding-top:30px ;
+    background-color: white;
+   display: flex;
+   justify-content: space-between;
+   
+    padding-left: 60px;
+    padding-right:60px ;
+    cursor: pointer;  
+}
+.user:hover{
+    box-shadow: 0 0 5px 5px #4285F4;
+}

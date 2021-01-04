@@ -1,0 +1,60 @@
+.cv {
+    background-color: #E2E8F0;
+    display: flex;
+}
+
+.profileImg{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.left-part{
+    height: 500px;
+    width: 400px;
+    margin-left:30px;
+    padding-top: 100px;
+    margin-top:50px;
+    border-radius: 2px;
+    box-shadow:  0 0 3px 3px grey;   
+   
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+}
+h5{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top:30px;
+}
+.right-part{
+    height: 500px;
+    width: 800px;
+    margin-left:30px;
+    margin-top:50px;
+    border-radius: 2px;
+    box-shadow:  0 0 3px 3px grey;   
+    margin-bottom: 30px;
+    background-color: white;
+    padding-top:25px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 70px;
+    padding-right:70px ;
+    cursor: pointer;
+   
+}
+.infos
+{
+    border-bottom: solid 1px #ddd ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.right-part:hover,.left-part:hover{
+    box-shadow:0 0 8px 8px gray;
+}

@@ -1,0 +1,85 @@
+.joblist {
+    background-color: #E2E8F0;    
+    padding-top:20px ;
+    padding-left:16px;
+    padding-bottom: 30px ;
+     
+}
+.joblistg{
+    background-color: #E2E8F0;
+}
+
+.job{
+    height: 220px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    display: flex;
+    
+    border-radius: 2px;
+    box-shadow:  0 0 3px 3px #f02043;   
+    padding-top:26px ;
+    background-color: #FFE3D6;
+    cursor: pointer;  
+}
+.job:hover{
+    box-shadow: 0 0 5px 5px #4285F4;
+}
+.comp{
+    font-size: 14px;
+    padding-left: 60px;
+    margin-bottom: 5px;    
+}
+
+.offre{
+    color: rgb(52, 80, 241);
+    font-size:14px ;
+    padding-left: 60px;
+    margin-bottom: 5px;
+   font-weight: 50px;
+}
+
+ .description{
+    font-size: 12px;
+    font-weight: 5px;
+    padding-left: 60px;
+}
+.address{
+    padding-left:18px;
+    margin-left: 0;
+}
+.item{
+    display:flex;    
+    align-items: center;
+    font-size: large; 
+    color:gray;
+   
+}
+
+.items{
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    width:800px;
+    margin-left:0px ;
+    padding-right:0px ;
+    margin-top: 22px;
+    height:60px;
+    border-top:solid 1px #E2E8F0 ;
+}
+.hh{
+    margin-right: 30px;
+    margin-top:15px;
+    
+    
+}
+button:hover{
+    box-shadow:  0 0 3px 3px #f02043; 
+}
+.aa{
+    display: flex;
+    justify-content: space-between;
+}
+
+
