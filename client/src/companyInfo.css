@@ -1,0 +1,66 @@
+.profile{
+    border: solid 2px white;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 3px 3px wheat;
+    height: 450px;
+    margin-bottom:30px ;
+    margin-left:-5px;
+    background-color: #E2E8F0; 
+  
+    
+  }
+  .leftpart{ 
+      
+        background: -webkit-gradient(linear, left top, right top, from(#f29263), to(#ee5a6f));
+        background: linear-gradient(to right, #ee5a6f, #f29263);
+        
+        border-radius:3px  ;
+   
+  }
+.profileImg{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    text-align: center;
+}
+.left-det{
+    color: white;
+    font-size: 20px;
+    padding-top:110px;
+    padding-left:0px ;
+    text-align: center;
+}
+h6{
+    
+    
+    font-size: 40px;
+    font-weight: 30px;
+    margin-top: 50px ;
+    width: 500px;
+    border-bottom:  2px solid grey;
+    margin-left:100px ;
+    
+    
+}
+.info{
+   
+    display: flex;
+    padding-left: 100px;
+    padding-top: 30px ;
+
+}
+b{
+    font-size: 20px;
+}
+.btns{
+    padding-top:30px;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.profile:hover{
+    box-shadow:0 0 3px 3px #ee5a6f;
+    cursor: pointer;
+}
