@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { registerUser } from "../actions/authUserActions";
 import { clearError } from "../actions/errorActions";
 
-import { Footer } from "./Footer";
+
 import { NavbarPage } from "./NavbarPage";
 
 export const RegisterForm = (props) => {
@@ -51,11 +51,11 @@ export const RegisterForm = (props) => {
   };
 
   return (
-    <div style={{ height: "400px" }}>
+    <div style={{overflow:"hidden",height:"100vh",overFlow:"hidden"}}>
       <NavbarPage />
-      <div className="row mb-0 mt-0">
+      <div className="row mb-0 mt-0" >
         <img
-          style={{ height: "600px", marginBottom: "-26px" }}
+          style={{height:"100vh",overFlow:"hidden",marginBottom:"0px",paddingBottom:"0px" }}
           className="col-md-7"
           src="https://www.monster.fr/recruter/conseil-en-ressources-humaines/wp-content/uploads/sites/13/2019/05/e53ad853b2ece39e4dc566f728b95493.png"
           alt=""
@@ -152,7 +152,7 @@ export const RegisterForm = (props) => {
         </Form>
       </div>
 
-      <Footer />
+    
     </div>
   );
 };

@@ -4,13 +4,13 @@ export const Footer = () => {
   return (
     <div
       style={{
-        backgroundColor: "#343A40",
+        backgroundColor: "#007BFF",
         textAlign: "center",
         fontSize: "20px",
         paddingTop: "15px",
         height: "60px",
         color: "wheat",
-       position:"fixed",
+       position:"relative",
         bottom:"0",
         width:"100%",
         zIndex:"3"

@@ -3,7 +3,7 @@ import { Form } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { loginUser } from "../actions/authUserActions";
 import { clearError } from "../actions/errorActions";
-import { Footer } from "./Footer";
+
 import { NavbarPage } from "./NavbarPage";
 
 export const LoginEmp = (props) => {
@@ -39,11 +39,11 @@ export const LoginEmp = (props) => {
   };
 
   return (
-    <div style={{ overflow: "hidden" }}>
+    <div style={{ overflow: "hidden" , height:"100vh" }}>
       <NavbarPage />
       <div className="row">
         <img
-          style={{ height: "580px" }}
+          style={{height:"100vh",overFlow:"hidden"}}
           className="col-md-7"
           src="https://blog.les-sherpas.co/wp-content/uploads/2019/03/rawpixel-653764-unsplash-e1552937295174.jpg"
           alt=""
@@ -101,7 +101,7 @@ export const LoginEmp = (props) => {
           ) : null}
         </Form>
       </div>
-      <Footer style={{ marginTop: "0px" }} />
+      
     </div>
   );
 };
