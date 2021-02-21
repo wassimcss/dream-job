@@ -65,7 +65,7 @@ function App() {
         <Route path="/login" exact component={LoginEmp} />
         <Route path="/register" exact component={RegisterForm} />
         <Route path="/resume" exact component={FormEmp} />
-        <Route path="/Admin" exact component={LogAdmin} />
+        <Route path="/logAdmin" exact component={LogAdmin} />
         <Route path="/profile" exact component={FormComp} />
         <Route path="/newoffer" exact component={AddOffer} />
         <Route path="/editoffer/:id" exact component={EditOffer}/>
