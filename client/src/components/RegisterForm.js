@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 //import { Redirect } from "react-router";
 import { registerUser } from "../actions/authUserActions";
 import { clearError } from "../actions/errorActions";
+import registerIm from '../assests/register.png'
 
 
 import { NavbarPage } from "./NavbarPage";
@@ -57,8 +58,8 @@ export const RegisterForm = (props) => {
         <img
           style={{height:"100vh",overFlow:"hidden",marginBottom:"0px",paddingBottom:"0px" }}
           className="col-md-7"
-          src="https://www.monster.fr/recruter/conseil-en-ressources-humaines/wp-content/uploads/sites/13/2019/05/e53ad853b2ece39e4dc566f728b95493.png"
-          alt=""
+          src={registerIm}
+          alt="registerIm"
         />
 
         <Form

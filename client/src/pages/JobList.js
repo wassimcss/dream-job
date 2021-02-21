@@ -58,7 +58,7 @@ export const JobList = (props) => {
           </Spinner>
         ) : (
           <>
-            <div className="joblist">
+            <div className="joblist" style={{marginBottom:"12rem"}}>
               {curr_jobs.map((job) => {
                 return (
                   <div key={job._id} className="job">
